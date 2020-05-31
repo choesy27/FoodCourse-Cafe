@@ -25,48 +25,49 @@
 
             <TextView
                 android:id="@+id/tvtitle"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Course Title"
+                android:textColor="#000000"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvcategory"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="#edecec"
                 android:padding="8dp"
-                android:text="Category" />
+                android:text="Category"
+                android:textColor="#000000" />
 
             <TextView
-                android:textColor="#000000"
                 android:id="@+id/tvdescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description"
+                android:textColor="#000000"
                 android:textSize="18sp" />
 
             <ImageView
-            android:id="@+id/coursethumbnail2"
-            android:layout_width="377dp"
-            android:layout_height="170dp"
-            android:background="#2d2d2d"
-            android:scaleType="centerCrop" />
+                android:id="@+id/coursethumbnail2"
+                android:layout_width="377dp"
+                android:layout_height="170dp"
+                android:background="#2d2d2d"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:id="@+id/tvdescription2"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/coursethumbnail3"
                 android:layout_width="377dp"
@@ -76,12 +77,13 @@
 
             <TextView
                 android:id="@+id/tvdescription3"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/coursethumbnail4"
                 android:layout_width="377dp"
@@ -91,12 +93,13 @@
 
             <TextView
                 android:id="@+id/tvdescription4"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/coursethumbnail5"
                 android:layout_width="377dp"
@@ -106,12 +109,13 @@
 
             <TextView
                 android:id="@+id/tvdescription5"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/coursethumbnail6"
                 android:layout_width="377dp"
@@ -121,12 +125,13 @@
 
             <TextView
                 android:id="@+id/tvdescription6"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/coursethumbnail7"
                 android:layout_width="377dp"
@@ -136,12 +141,13 @@
 
             <TextView
                 android:id="@+id/tvdescription7"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
+            <!--
             <ImageView
                 android:id="@+id/coursethumbnail8"
                 android:layout_width="377dp"
@@ -151,12 +157,13 @@
 
             <TextView
                 android:id="@+id/tvdescription8"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/coursethumbnail9"
                 android:layout_width="377dp"
@@ -166,12 +173,13 @@
 
             <TextView
                 android:id="@+id/tvdescription9"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/coursethumbnail10"
                 android:layout_width="377dp"
@@ -181,12 +189,13 @@
 
             <TextView
                 android:id="@+id/tvdescription10"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/coursethumbnail11"
                 android:layout_width="377dp"
@@ -196,83 +205,83 @@
 
             <TextView
                 android:id="@+id/tvdescription11"
-                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description2"
+                android:textColor="#000000"
                 android:textSize="18sp" />
-<!--            <ImageView-->
-<!--                android:id="@+id/coursethumbnail12"-->
-<!--                android:layout_width="377dp"-->
-<!--                android:layout_height="170dp"-->
-<!--                android:background="#2d2d2d"-->
-<!--                android:scaleType="centerCrop" />-->
+            -->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/coursethumbnail12"-->
+            <!--                android:layout_width="377dp"-->
+            <!--                android:layout_height="170dp"-->
+            <!--                android:background="#2d2d2d"-->
+            <!--                android:scaleType="centerCrop" />-->
 
-<!--            <TextView-->
-<!--                android:id="@+id/tvdescription12"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                android:text="Description2"-->
-<!--                android:textSize="18sp" />-->
-<!--            <ImageView-->
-<!--                android:id="@+id/coursethumbnail13"-->
-<!--                android:layout_width="377dp"-->
-<!--                android:layout_height="170dp"-->
-<!--                android:background="#2d2d2d"-->
-<!--                android:scaleType="centerCrop" />-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/tvdescription12"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:text="Description2"-->
+            <!--                android:textSize="18sp" />-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/coursethumbnail13"-->
+            <!--                android:layout_width="377dp"-->
+            <!--                android:layout_height="170dp"-->
+            <!--                android:background="#2d2d2d"-->
+            <!--                android:scaleType="centerCrop" />-->
 
-<!--            <TextView-->
-<!--                android:id="@+id/tvdescription13"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                android:text="Description2"-->
-<!--                android:textSize="18sp" />-->
-<!--            <ImageView-->
-<!--                android:id="@+id/coursethumbnail14"-->
-<!--                android:layout_width="377dp"-->
-<!--                android:layout_height="170dp"-->
-<!--                android:background="#2d2d2d"-->
-<!--                android:scaleType="centerCrop" />-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/tvdescription13"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:text="Description2"-->
+            <!--                android:textSize="18sp" />-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/coursethumbnail14"-->
+            <!--                android:layout_width="377dp"-->
+            <!--                android:layout_height="170dp"-->
+            <!--                android:background="#2d2d2d"-->
+            <!--                android:scaleType="centerCrop" />-->
 
-<!--            <TextView-->
-<!--                android:id="@+id/tvdescription14"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                android:text="Description2"-->
-<!--                android:textSize="18sp" />-->
-<!--            <ImageView-->
-<!--                android:id="@+id/coursethumbnail15"-->
-<!--                android:layout_width="377dp"-->
-<!--                android:layout_height="170dp"-->
-<!--                android:background="#2d2d2d"-->
-<!--                android:scaleType="centerCrop" />-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/tvdescription14"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:text="Description2"-->
+            <!--                android:textSize="18sp" />-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/coursethumbnail15"-->
+            <!--                android:layout_width="377dp"-->
+            <!--                android:layout_height="170dp"-->
+            <!--                android:background="#2d2d2d"-->
+            <!--                android:scaleType="centerCrop" />-->
 
-<!--            <TextView-->
-<!--                android:id="@+id/tvdescription15"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                android:text="Description2"-->
-<!--                android:textSize="18sp" />-->
-<!--            <ImageView-->
-<!--                android:id="@+id/coursethumbnail16"-->
-<!--                android:layout_width="377dp"-->
-<!--                android:layout_height="170dp"-->
-<!--                android:background="#2d2d2d"-->
-<!--                android:scaleType="centerCrop" />-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/tvdescription15"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:text="Description2"-->
+            <!--                android:textSize="18sp" />-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/coursethumbnail16"-->
+            <!--                android:layout_width="377dp"-->
+            <!--                android:layout_height="170dp"-->
+            <!--                android:background="#2d2d2d"-->
+            <!--                android:scaleType="centerCrop" />-->
 
-<!--            <TextView-->
-<!--                android:id="@+id/tvdescription16"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                android:text="Description2"-->
-<!--                android:textSize="18sp" />-->
-
+            <!--            <TextView-->
+            <!--                android:id="@+id/tvdescription16"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:text="Description2"-->
+            <!--                android:textSize="18sp" />-->
 
 
         </LinearLayout>

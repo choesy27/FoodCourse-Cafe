@@ -17,6 +17,7 @@ import java.util.List;
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
     private Context mContext;
     private List<Course> mData;
+    private Context context;
 
     public RecyclerViewAdapter(Context mContext, List<Course> mData) {
         this.mContext = mContext;
@@ -54,16 +55,15 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 intent.putExtra("Description5", mData.get(position).getDescription5());
                 intent.putExtra("Description6", mData.get(position).getDescription6());
                 intent.putExtra("Description7", mData.get(position).getDescription7());
-                intent.putExtra("Description8", mData.get(position).getDescription8());
-                intent.putExtra("Description9", mData.get(position).getDescription9());
-                intent.putExtra("Description10", mData.get(position).getDescription10());
-                intent.putExtra("Description11", mData.get(position).getDescription11());
-//                intent.putExtra("Description12", mData.get(position).getDescription12());
-//                intent.putExtra("Description13", mData.get(position).getDescription13());
-//                intent.putExtra("Description14", mData.get(position).getDescription14());
-//                intent.putExtra("Description15", mData.get(position).getDescription15());
-//                intent.putExtra("Description16", mData.get(position).getDescription16());
-
+//              intent.putExtra("Description8", mData.get(position).getDescription8());
+//              intent.putExtra("Description9", mData.get(position).getDescription9());
+//              intent.putExtra("Description10", mData.get(position).getDescription10());
+//              intent.putExtra("Description11", mData.get(position).getDescription11());
+//              intent.putExtra("Description12", mData.get(position).getDescription12());
+//              intent.putExtra("Description13", mData.get(position).getDescription13());
+//              intent.putExtra("Description14", mData.get(position).getDescription14());
+//              intent.putExtra("Description15", mData.get(position).getDescription15());
+//              intent.putExtra("Description16", mData.get(position).getDescription16());
 
                 intent.putExtra("Category", mData.get(position).getCategory());
                 intent.putExtra("Thumbnail", mData.get(position).getThumbnail());
@@ -74,16 +74,15 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 intent.putExtra("Thumbnail5", mData.get(position).getThumbnail5());
                 intent.putExtra("Thumbnail6", mData.get(position).getThumbnail6());
                 intent.putExtra("Thumbnail7", mData.get(position).getThumbnail7());
-                intent.putExtra("Thumbnail8", mData.get(position).getThumbnail8());
-                intent.putExtra("Thumbnail9", mData.get(position).getThumbnail9());
-                intent.putExtra("Thumbnail10", mData.get(position).getThumbnail10());
-                intent.putExtra("Thumbnail11", mData.get(position).getThumbnail11());
-//                intent.putExtra("Thumbnail12", mData.get(position).getThumbnail12());
-//                intent.putExtra("Thumbnail13", mData.get(position).getThumbnail13());
-//                intent.putExtra("Thumbnail14", mData.get(position).getThumbnail14());
-//                intent.putExtra("Thumbnail15", mData.get(position).getThumbnail15());
-//                intent.putExtra("Thumbnail16", mData.get(position).getThumbnail16());
-
+//              intent.putExtra("Thumbnail8", mData.get(position).getThumbnail8());
+//              intent.putExtra("Thumbnail9", mData.get(position).getThumbnail9());
+//              intent.putExtra("Thumbnail10", mData.get(position).getThumbnail10());
+//              intent.putExtra("Thumbnail11", mData.get(position).getThumbnail11());
+//              intent.putExtra("Thumbnail12", mData.get(position).getThumbnail12());
+//              intent.putExtra("Thumbnail13", mData.get(position).getThumbnail13());
+//              intent.putExtra("Thumbnail14", mData.get(position).getThumbnail14());
+//              intent.putExtra("Thumbnail15", mData.get(position).getThumbnail15());
+//              intent.putExtra("Thumbnail16", mData.get(position).getThumbnail16());
 
                 // start the activity
                 mContext.startActivity(intent);
@@ -104,9 +103,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         public MyViewHolder(View itemView) {
             super(itemView);
 
-            course_title = (TextView) itemView.findViewById(R.id.Test_title);
-            img_course_thumbnail = (ImageView) itemView.findViewById(R.id.image);
-            cardView = (CardView) itemView.findViewById(R.id.cardview);
+            course_title = itemView.findViewById(R.id.Test_title);
+            img_course_thumbnail = itemView.findViewById(R.id.image);
+            cardView = itemView.findViewById(R.id.cardview);
         }
     }
 }
